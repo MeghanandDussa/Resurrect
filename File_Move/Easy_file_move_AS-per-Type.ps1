@@ -1,5 +1,4 @@
-﻿#####
-$_path=$null;
+﻿$_path=$null;
 [System.Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic') | Out-Null
 [string]$_path = [Microsoft.VisualBasic.Interaction]::InputBox("Please enter the path of the files to be sorted", "Read-Host")
 
